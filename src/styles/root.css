@@ -1,0 +1,36 @@
+main {
+  width: 100vw;
+  height: calc(100vh - 40px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #ededed;
+}
+main section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #fff;
+  padding: 0 50px;
+}
+.chattb {
+  display: flex;
+  padding-bottom: 50px;
+}
+.msg {
+  padding: 10px;
+  width: max-content;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+.msg h3 {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+.scaffold{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
